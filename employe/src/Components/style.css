@@ -1,0 +1,199 @@
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+.logo-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #333;
+    background-image: linear-gradient(to bottom, #333, #444);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    transition: all 0.5s ease-in-out;
+    left: 50px;
+    top: 20px;
+    transition: all 0.5s ease-in-out;
+  }
+.logo-text:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+a:hover {
+    color: #e28b20; 
+    text-decoration: none;
+}
+
+a:active {
+    color: #3e8e41;
+}
+button:hover {
+    background-color: #cf8938; 
+    color: white;
+}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.btn a{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 30%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+}
+.about{
+   padding-bottom: 90px;
+   
+}
+.star-admin-page {
+    text-align: center;
+    padding: 20px;
+  }
+  .centered {
+    max-width: 500px; 
+    margin: 40px auto; 
+    text-align: center; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .btn-block {
+    display: block;
+    margin: 0 auto;
+  }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .checkbox-container label {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    cursor: pointer;
+  }
+  button[type="button"] {
+    padding: 10px;
+    font-size: 18px; 
+    border-radius: 10px; 
+  }
+  .d-flex.flex-column {
+    flex-direction: column; 
+  }
+  
+  .mb-2 {
+    margin-bottom: 10px;
+  }
+  body {
+    background-color: rgb(217, 214, 222);
+  }
+  .white-bg {
+    background-color: #ffffff;
+  }
+  div {
+    border-radius: 10px;
+  }
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    border-radius: 20px; 
+    overflow: hidden;
+  }
+  
+  .table-bordered {
+    border-collapse: separate;
+    border-radius: 10px; 
+  }
+  
+  .table-bordered > thead > tr > th,
+  .table-bordered > tbody > tr > th,
+  .table-bordered > tfoot > tr > th,
+  .table-bordered > thead > tr > td,
+  .table-bordered > tbody > tr > td,
+  .table-bordered > tfoot > tr > td {
+    border: 1px solid #b5b5b5;
+    border-radius: 10px; 
+  }
+  .dashboard {
+    border-radius: 0; 
+  }
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+  }
+  
+  .table tr {
+    background-color: #ffffff;
+  }
+  
+  .table td,
+  .table th {
+    border: none;
+    padding: 10px;
+  }
+  
+  .table tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .table tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .table thead tr th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .table thead tr th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
